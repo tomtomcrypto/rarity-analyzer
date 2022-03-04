@@ -8,7 +8,6 @@ export default class MyDocument extends Document {
 				<Head>
 					<title>{process.env.NEXT_PUBLIC_SITENAME} - Rarity</title>
 					<link rel="shortcut icon" href="/favicon.ico" />
-					{/* <script async src="/ahoy.js" /> */}
 					<script
 						async
 						src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_SITE_ID}`}
