@@ -6,7 +6,7 @@ export default class MyDocument extends Document {
 		return (
 			<Html lang="en">
 				<Head>
-					<title>${process.env.NEXT_PUBLIC_SITENAME} - Rarity</title>
+					<title>{process.env.NEXT_PUBLIC_SITENAME} - Rarity</title>
 					<link rel="shortcut icon" href="/favicon.ico" />
 					{/* <script async src="/ahoy.js" /> */}
 					<script
